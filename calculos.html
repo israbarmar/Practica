@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculo.css.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id='ej1' name='ej1' oninput= "o1.value=parseInt(n1.value, 10) + parseInt(n2.value, 10)">
+      <fieldset>
+       <legend>Fornulario 1</legend>
+       <label for='n1'>
+           numero 1:<br>
+        <input type='number' id='n1' name='n1' value='0'><br>
+    </label>
+       <label for='n2'>
+           numero 2:<br>
+       <input type='number' id='n2' name='n2' value='0'>
+    </label>
+    </fieldset>
+</form>
+ <label>
+     <br>
+     ouput: 
+</label>
+     <output name='o1' for='n1 n2' form='ej1'>0</ouput>
+</body>
+</html>
